@@ -16,7 +16,7 @@ int main() {
 
         vector<int> bad;
         for (int i = 0; i < n; ++i) {
-            if (numbers[i] != numbers[i+1]) {
+            if (numbers[i] != i+1) {
                 bad.push_back(i);
             }
         }
